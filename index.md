@@ -1,4 +1,4 @@
-@def title = "Nathanael Wong"
+@def title = "Home"
 
 <!-- -----------------
      BIOGRAPHY SECTION
@@ -25,9 +25,9 @@
 @@col-12,col-lg-8
 
 \begin{biography}{}
-    Hello! I am a PhD Candidate in the Department of Earth and Planetary Sciences at Harvard University, currently working under Professor Kuang Zhiming on a variety of different projects related to tropical convection and climate, especially as relates to the Maritime Continent.
+    Hello! I am a PhD Candidate in the Department of Earth and Planetary Sciences at Harvard University, currently working under Professor Kuang Zhiming on a variety of different projects related to tropical convection and climate, especially as relates to the Maritime Continent.  See the links above for a more detailed breakdown, along with the relevant publications.
 
-    Feel free to reach out to me via nathanaelwong [at] harvard.edu if you have any questions.
+    Feel free to reach out to me via email if you have any questions.
  
 \end{biography}
 
@@ -53,8 +53,8 @@
      -------------- -->
 @@col-12,col-lg-6,pubs
     \
-        \sectionheading{"Recent publications", class="col-md-12"}
-    {{pub}}
+        \sectionheading{"Recent Publications", class="col-md-12"}
+    {{pubrecent}}
 @@
 
 

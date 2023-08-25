@@ -1,6 +1,6 @@
 +++
 author = "Nathanael Wong Zhixin"
-shortauthor = "Nathanael Wong"
+shortauthor = "Nat's Website"
 jobtitle = "PhD Candidate"
 
 prepath = ""
@@ -20,7 +20,7 @@ hasmermaid = false
 dateformat = "year"
 # RSS setup
 website_title = "Tropical Meteorology and Julia Computing"
-website_descr = "Nathanael Wong"
+website_descr = "Nat's Website'"
 website_url   = "https://natgeo-wong.github.io/"
 +++
 

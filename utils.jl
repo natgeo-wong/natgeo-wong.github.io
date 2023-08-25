@@ -454,3 +454,61 @@ function hfun_pub()
     return String(take!(io))
 end
 
+function hfun_pubrecent()
+    bib = bibtex_to_web("_assets/MyAuthoredPapers.bib")
+    isempty(bib) && return ""
+    io = IOBuffer()
+    write(io,"""
+        <div>
+        <table style="font-size:1.0rem" class="table table-borderless">
+        """)
+    if length(bib) > 3
+        for bibitem in bib[(end-2):end]
+            title = replace(bibitem.title,"{"=>"")
+            title = replace(title,"}"=>"")        
+            authors = bibitem.names
+            link = bibitem.link
+            year = bibitem.year
+            journal = bibitem.in
+            write(io, """
+                <tr>
+                </div>
+                    <td style="vertical-align:middle;">
+                    <div class="article-metadata"><span class="article-date">$year </span>
+                    </td>
+                    <td>
+                        <p class="course">$title</p>
+                        <p style="font-size:0.90rem; margin-bottom:0.2rem;" class="institution">$authors</p>
+                        <p style="font-size:0.90rem; margin-bottom:0.2rem;" class="institution">$journal</p>
+                        <p style="font-size:0.90rem;" class="institution">link: <a href=$link>$link</a></p>
+                    </td>
+                </tr>""")
+        end
+    else
+        for bibitem in bib
+            title = replace(bibitem.title,"{"=>"")
+            title = replace(title,"}"=>"")        
+            authors = bibitem.names
+            link = bibitem.link
+            year = bibitem.year
+            journal = bibitem.in
+            write(io, """
+                <tr>
+                  </div>
+                    <td style="vertical-align:middle;">
+                     <div class="article-metadata"><span class="article-date">$year </span>
+                     </td>
+                     <td>
+                        <p class="course">$title</p>
+                        <p style="font-size:0.90rem; margin-bottom:0.2rem;" class="institution">$authors</p>
+                        <p style="font-size:0.90rem; margin-bottom:0.2rem;" class="institution">$journal</p>
+                        <p style="font-size:0.90rem;" class="institution">link: <a href=$link>$link</a></p>
+                    </td>
+                </tr>""")
+        end
+    end
+    write(io,"""</table>
+                </div>""")
+    return String(take!(io))
+end
+
