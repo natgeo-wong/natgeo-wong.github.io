@@ -8,7 +8,7 @@
 
 @@col-12,col-lg-4,profile
 
-\img{"/assets/img/tmp.jpg", class="avatar avatar-square", alt="Nathanael Wong"}
+\img{"/assets/img/avatar.jpg", class="avatar avatar-square", alt="Nathanael Wong"}
 \portrait{
     name="Nathanael Wong Zhixin",
     job="PhD Candidate",
