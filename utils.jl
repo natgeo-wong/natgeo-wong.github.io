@@ -456,21 +456,16 @@ function hfun_pub()
         title = replace(title,"}"=>"")        
         authors = bibitem.names
         link = bibitem.link
-        year = bibitem.year
         journal = bibitem.in
         write(io, """
             <tr>
-              </div>
-                <td style="vertical-align:middle;">
-                 <div class="article-metadata"><span class="article-date">$year </span>
-                 </td>
-                 <td>
-                    <p class="course">$title</p>
+                <td>
+                    <p class="course"><a href=$link>$title</a></p>
                     <p style="font-size:0.90rem; margin-bottom:0.2rem;" class="institution">$authors</p>
                     <p style="font-size:0.90rem; margin-bottom:0.2rem;" class="institution">$journal</p>
-                    <p style="font-size:0.90rem;" class="institution">link: <a href=$link>$link</a></p>
                 </td>
-            </tr>""")
+            </tr>
+        </div>""")
     end
     write(io,"""</table>
                 </div>""")
@@ -491,21 +486,16 @@ function hfun_pubrecent()
             title = replace(title,"}"=>"")        
             authors = bibitem.names
             link = bibitem.link
-            year = bibitem.year
             journal = bibitem.in
             write(io, """
                 <tr>
-                </div>
-                    <td style="vertical-align:middle;">
-                    <div class="article-metadata"><span class="article-date">$year </span>
-                    </td>
-                    <td>
-                        <p class="course">$title</p>
-                        <p style="font-size:0.90rem; margin-bottom:0.2rem;" class="institution">$authors</p>
-                        <p style="font-size:0.90rem; margin-bottom:0.2rem;" class="institution">$journal</p>
-                        <p style="font-size:0.90rem;" class="institution">link: <a href=$link>$link</a></p>
-                    </td>
-                </tr>""")
+                <td>
+                    <p class="course"><a href=$link>$title</a></p>
+                    <p style="font-size:0.90rem; margin-bottom:0.2rem;" class="institution">$authors</p>
+                    <p style="font-size:0.90rem; margin-bottom:0.2rem;" class="institution">$journal</p>
+                </td>
+                </tr>
+            </div>""")
         end
     else
         for bibitem in bib
@@ -513,21 +503,16 @@ function hfun_pubrecent()
             title = replace(title,"}"=>"")        
             authors = bibitem.names
             link = bibitem.link
-            year = bibitem.year
             journal = bibitem.in
             write(io, """
                 <tr>
-                  </div>
-                    <td style="vertical-align:middle;">
-                     <div class="article-metadata"><span class="article-date">$year </span>
-                     </td>
-                     <td>
-                        <p class="course">$title</p>
-                        <p style="font-size:0.90rem; margin-bottom:0.2rem;" class="institution">$authors</p>
-                        <p style="font-size:0.90rem; margin-bottom:0.2rem;" class="institution">$journal</p>
-                        <p style="font-size:0.90rem;" class="institution">link: <a href=$link>$link</a></p>
-                    </td>
-                </tr>""")
+                <td>
+                    <p class="course"><a href=$link>$title</a></p>
+                    <p style="font-size:0.90rem; margin-bottom:0.2rem;" class="institution">$authors</p>
+                    <p style="font-size:0.90rem; margin-bottom:0.2rem;" class="institution">$journal</p>
+                </td>
+                </tr>
+            </div>""")
         end
     end
     write(io,"""</table>
