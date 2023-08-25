@@ -1,15 +1,190 @@
-<!doctype html> <html lang=en > <meta charset=UTF-8 > <meta name=viewport  content="width=device-width, initial-scale=1"> <meta name=author  content="Nathanael Wong Zhixin"> <meta name=description  content="PhD Candidate"> <meta name=theme-color  content="#2962ff"> <link rel=icon  href="/assets/cloud-wind.ico"> <link rel=preconnect href="https://fonts.gstatic.com" crossorigin=anonymous> <link rel=stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" crossorigin=anonymous> <link rel=stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" crossorigin=anonymous> <link rel=stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" crossorigin=anonymous> <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap" crossorigin=anonymous> <link rel=stylesheet href="/libs/academic/academic.min.css"> <link rel=stylesheet href="/css/extra.css"> <link rel=stylesheet href="/libs/highlight/github.min.css"> <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin=anonymous async></script> <link rel=stylesheet  href="/css/academicons.min.css"/> <link rel=stylesheet  href="/css/mytweaks_to_academic.css"/> <title>Code blocks</title> <body id=top data-spy=scroll  data-offset=70  data-target=#navbar-main> <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main> <div class=container> <div class="d-none d-lg-inline-flex"> <a class=navbar-brand href="/">Nathanael Wong Zhixin</a> </div> <button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar aria-expanded=false aria-label="Toggle navigation"> <span><i class="fas fa-bars"></i></span> </button> <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none"> <a class=navbar-brand href="/">Nathanael Wong</a> </div> <div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content> <ul class="navbar-nav d-md-inline-flex"> <li class=nav-item><a class=nav-link href="/posts/"><span>Blog ES</span></a> <li class=nav-item><a class=nav-link href="/posts_en/"><span>Blog EN</span></a> </ul> </div> </div> </nav> <span class="js-widget-page d-none"></span> <article class=article> <div class="article-container pt-3"> <h1>Code blocks</h1> </div> <div class=article-container > <div class=article-style > <div class=franklin-content > <h1 id=working_with_code_blocks ><a href="#working_with_code_blocks" class=header-anchor >Working with code blocks</a></h1> <div class=franklin-toc ><ol><li><a href="#live_evaluation_of_code_blocks">Live evaluation of code blocks</a><li><a href="#including_scripts">Including scripts</a></ol></div> <h2 id=live_evaluation_of_code_blocks ><a href="#live_evaluation_of_code_blocks" class=header-anchor >Live evaluation of code blocks</a></h2> <p>If you would like to show code as well as what the code outputs, you only need to specify where the script corresponding to the code block will be saved.</p> <p>Indeed, what happens is that the code block gets saved as a script which then gets executed. This also allows for that block to not be re-executed every time you change something <em>else</em> on the page.</p> <p>Here&#39;s a simple example &#40;change values in <code>a</code> to see the results being live updated&#41;:</p> <pre><code class="julia hljs"><span class=hljs-keyword >using</span> LinearAlgebra
-a = [<span class=hljs-number >1</span>, <span class=hljs-number >2</span>, <span class=hljs-number >3</span>, <span class=hljs-number >3</span>, <span class=hljs-number >4</span>, <span class=hljs-number >5</span>, <span class=hljs-number >2</span>, <span class=hljs-number >2</span>]
-<span class=hljs-meta >@show</span> dot(a, a)
-println(dot(a, a))</code></pre> <p>You can now show what this would look like:</p> <pre><code class="plaintext hljs">dot(a, a) = 72
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="author" content="Nathanael Wong Zhixin">
+  <meta name="description" content="PhD Candidate">
+
+  <meta name="theme-color" content="#2962ff">
+  <link rel="icon" href="/assets/cloud-wind.ico">
+  <link
+  rel=preconnect
+  href="https://fonts.gstatic.com"
+  crossorigin=anonymous>
+
+<link
+  rel=stylesheet
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"  crossorigin=anonymous>
+
+<link
+  rel=stylesheet
+  href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+  crossorigin=anonymous>
+
+<link
+  rel=stylesheet
+  href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css"
+  crossorigin=anonymous>
+
+<link
+  rel=stylesheet
+  href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap"
+  crossorigin=anonymous>
+
+<!-- locally served -->
+<link rel=stylesheet href="/libs/academic/academic.min.css">
+
+<link rel=stylesheet href="/css/extra.css">
+
+<!-- highlight + katex + plotly -->
+<link rel=stylesheet href="/libs/highlight/github.min.css">
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin=anonymous async></script>
+
+  <link rel="stylesheet" href="/css/academicons.min.css"/>
+  <link rel="stylesheet" href="/css/mytweaks_to_academic.css"/>
+
+   <title>Code blocks</title>  
+</head>
+
+<body id=top data-spy="scroll" data-offset="70" data-target=#navbar-main>
+
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main>
+  <div class=container>
+    <!-- Main name -->
+    <div class="d-none d-lg-inline-flex">
+      <a class=navbar-brand href="/">Nathanael Wong Zhixin</a>
+    </div>
+    <!-- Button for narrow mode -->
+    <button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar aria-expanded=false aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+    </button>
+    <!-- Main name for mobile mode -->
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class=navbar-brand href="/">Nathanael Wong</a>
+    </div>
+    <!-- Menu items -->
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content>
+      <ul class="navbar-nav d-md-inline-flex">
+        <!-- <li class=nav-item><a class=nav-link href="/#posts" data-target=#posts><span>Recent posts</span></a></li> -->
+        <li class=nav-item><a class=nav-link href="/posts/"><span>Blog ES</span></a></li>
+	<li class=nav-item><a class=nav-link href="/posts_en/"><span>Blog EN</span></a></li>
+        <!-- <\!-- <li class=nav-item><a class=nav-link href="/courses/"><span>Courses</span></a></li> -\-> -->
+        <!-- <li class=nav-item><a class=nav-link href="/research/"><span>Research</span></a></li> -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <span class="js-widget-page d-none"></span>
+
+  
+    <article class=article>
+      <div class="article-container pt-3">
+        <h1>Code blocks</h1>
+      </div>
+      
+
+      <div class="article-container">
+        <div class="article-style">
+  
+<div class="franklin-content">
+<h1 id="working_with_code_blocks"><a href="#working_with_code_blocks" class="header-anchor">Working with code blocks</a></h1>
+<div class="franklin-toc"><ol><li><a href="#live_evaluation_of_code_blocks">Live evaluation of code blocks</a></li><li><a href="#including_scripts">Including scripts</a></li></ol></div>
+<h2 id="live_evaluation_of_code_blocks"><a href="#live_evaluation_of_code_blocks" class="header-anchor">Live evaluation of code blocks</a></h2>
+<p>If you would like to show code as well as what the code outputs, you only need to specify where the script corresponding to the code block will be saved.</p>
+<p>Indeed, what happens is that the code block gets saved as a script which then gets executed. This also allows for that block to not be re-executed every time you change something <em>else</em> on the page.</p>
+<p>Here&#39;s a simple example &#40;change values in <code>a</code> to see the results being live updated&#41;:</p>
+<pre><code class="language-julia">using LinearAlgebra
+a &#61; &#91;1, 2, 3, 3, 4, 5, 2, 2&#93;
+@show dot&#40;a, a&#41;
+println&#40;dot&#40;a, a&#41;&#41;</code></pre>
+<p>You can now show what this would look like:</p>
+<pre><code class="plaintext code-output">dot(a, a) = 72
 72
-</code></pre> <p><strong>Notes</strong>:</p> <ul> <li><p>you don&#39;t have to specify the <code>.jl</code> &#40;see below&#41;,</p> <li><p>you do need to explicitly use print statements or <code>@show</code> for things to show, so just leaving a variable at the end like you would in the REPL will show nothing,</p> <li><p>only Julia code blocks are supported at the moment, there may be a support for scripting languages like <code>R</code> or <code>python</code> in the future,</p> <li><p>the way you specify the path is important; see <a href="https://tlienart.github.io/franklindocs/code/index.html#more_on_paths">the docs</a> for more info. If you don&#39;t care about how things are structured in your <code>/assets/</code> folder, just use <code>./scriptname.jl</code>. If you want things to be grouped, use <code>./group/scriptname.jl</code>. For more involved uses, see the docs.</p> </ul> <p>Lastly, it&#39;s important to realise that if you don&#39;t change the content of the code, then that code will only be executed <em>once</em> even if you make multiple changes to the text around it.</p> <p>Here&#39;s another example,</p> <pre><code class="julia hljs"><span class=hljs-keyword >for</span> i ∈ <span class=hljs-number >1</span>:<span class=hljs-number >5</span>, j ∈ <span class=hljs-number >1</span>:<span class=hljs-number >5</span>
-    print(<span class=hljs-string >&quot; &quot;</span>, rpad(<span class=hljs-string >&quot;*&quot;</span>^i,<span class=hljs-number >5</span>), lpad(<span class=hljs-string >&quot;*&quot;</span>^(<span class=hljs-number >6</span>-i),<span class=hljs-number >5</span>), j==<span class=hljs-number >5</span> ? <span class=hljs-string >&quot;\n&quot;</span> : <span class=hljs-string >&quot; &quot;</span>^<span class=hljs-number >4</span>)
-<span class=hljs-keyword >end</span></code></pre> <p>which gives the &#40;utterly useless&#41;:</p> <pre><code class="plaintext hljs"> *    *****     *    *****     *    *****     *    *****     *    *****
+</code></pre>
+<p><strong>Notes</strong>:</p>
+<ul>
+<li><p>you don&#39;t have to specify the <code>.jl</code> &#40;see below&#41;,</p>
+</li>
+<li><p>you do need to explicitly use print statements or <code>@show</code> for things to show, so just leaving a variable at the end like you would in the REPL will show nothing,</p>
+</li>
+<li><p>only Julia code blocks are supported at the moment, there may be a support for scripting languages like <code>R</code> or <code>python</code> in the future,</p>
+</li>
+<li><p>the way you specify the path is important; see <a href="https://tlienart.github.io/franklindocs/code/index.html#more_on_paths">the docs</a> for more info. If you don&#39;t care about how things are structured in your <code>/assets/</code> folder, just use <code>./scriptname.jl</code>. If you want things to be grouped, use <code>./group/scriptname.jl</code>. For more involved uses, see the docs.</p>
+</li>
+</ul>
+<p>Lastly, it&#39;s important to realise that if you don&#39;t change the content of the code, then that code will only be executed <em>once</em> even if you make multiple changes to the text around it.</p>
+<p>Here&#39;s another example,</p>
+<pre><code class="language-julia">for i ∈ 1:5, j ∈ 1:5
+    print&#40;&quot; &quot;, rpad&#40;&quot;*&quot;^i,5&#41;, lpad&#40;&quot;*&quot;^&#40;6-i&#41;,5&#41;, j&#61;&#61;5 ? &quot;\n&quot; : &quot; &quot;^4&#41;
+end</code></pre>
+<p>which gives the &#40;utterly useless&#41;:</p>
+<pre><code class="plaintext code-output"> *    *****     *    *****     *    *****     *    *****     *    *****
  **    ****     **    ****     **    ****     **    ****     **    ****
  ***    ***     ***    ***     ***    ***     ***    ***     ***    ***
  ****    **     ****    **     ****    **     ****    **     ****    **
  *****    *     *****    *     *****    *     *****    *     *****    *
-</code></pre> <p>note the absence of <code>.jl</code>, it&#39;s inferred.</p> <p>You can also hide lines &#40;that will be executed nonetheless&#41;:</p> <pre><code class="julia hljs"><span class=hljs-keyword >using</span> Random
-<span class=hljs-meta >@show</span> randn(<span class=hljs-number >2</span>)</code></pre> <pre><code class="plaintext hljs">randn(2) = [-0.07058313895389791, 0.5314767537831963]
-</code></pre> <h2 id=including_scripts ><a href="#including_scripts" class=header-anchor >Including scripts</a></h2> <p>Another approach is to include the content of a script that has already been executed. This can be an alternative to the description above if you&#39;d like to only run the code once because it&#39;s particularly slow or because it&#39;s not Julia code. For this you can use the <code>\input</code> command specifying which language it should be tagged as:</p> <p><p><span style="color:red;">// Couldn't find a file when trying to resolve an input request with relative path: `/_assets/scripts/script1.jl`. //</span></p> </p> <p>these scripts can be run in such a way that their output is also saved to file, see <code>scripts/generate_results.jl</code> for instance, and you can then also input the results:</p> <p><p><span style="color:red;">// `\output{/_assets/scripts/script1.jl}`: could not find the relevant output file. //</span></p> </p> <p>which is convenient if you&#39;re presenting code.</p> <p><strong>Note</strong>: paths specification matters, see <a href="https://tlienart.github.io/franklindocs/code/index.html#more_on_paths">the docs</a> for details.</p> <p>Using this approach with the <code>generate_results.jl</code> file also makes sure that all the code on your website works and that all results match the code which makes maintenance easier.</p> </div> <div class=container > <footer class=site-footer > <p class=powered-by >Built with <a href="https://franklinjl.org" target=_blank  rel=noopener >Franklin.jl</a> and the <a href="https://julialang.org" target=_blank  rel=noopener >Julia Programming Language</a>. <span class=float-right  aria-hidden=true > <a href="#" class=back-to-top > <span class=button_icon > <i class="fas fa-chevron-up fa-2x"></i> </span> </a> </span> </p> </footer> </div> </div> </div> <!--article container --> </article> <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin=anonymous></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin=anonymous></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin=anonymous></script> <script src="/libs/academic/academic.min.js"></script>
+</code></pre>
+<p>note the absence of <code>.jl</code>, it&#39;s inferred.</p>
+<p>You can also hide lines &#40;that will be executed nonetheless&#41;:</p>
+<pre><code class="language-julia">using Random
+@show randn&#40;2&#41;</code></pre>
+<pre><code class="plaintext code-output">randn(2) = [0.2972879845354616, 0.3823959677906078]
+</code></pre>
+<h2 id="including_scripts"><a href="#including_scripts" class="header-anchor">Including scripts</a></h2>
+<p>Another approach is to include the content of a script that has already been executed. This can be an alternative to the description above if you&#39;d like to only run the code once because it&#39;s particularly slow or because it&#39;s not Julia code. For this you can use the <code>\input</code> command specifying which language it should be tagged as:</p>
+<p><p><span style="color:red;">// Couldn't find a file when trying to resolve an input request with relative path: `/_assets/scripts/script1.jl`. //</span></p> </p>
+<p>these scripts can be run in such a way that their output is also saved to file, see <code>scripts/generate_results.jl</code> for instance, and you can then also input the results:</p>
+<p><p><span style="color:red;">// `\output{/_assets/scripts/script1.jl}`: could not find the relevant output file. //</span></p> </p>
+<p>which is convenient if you&#39;re presenting code.</p>
+<p><strong>Note</strong>: paths specification matters, see <a href="https://tlienart.github.io/franklindocs/code/index.html#more_on_paths">the docs</a> for details.</p>
+<p>Using this approach with the <code>generate_results.jl</code> file also makes sure that all the code on your website works and that all results match the code which makes maintenance easier.</p>
+
+</div> <!-- article style -->
+
+
+<div class="container">
+  <footer class="site-footer">
+    <p class="powered-by">Built with <a href="https://franklinjl.org" target="_blank" rel="noopener">Franklin.jl</a> and the <a href="https://julialang.org" target="_blank" rel="noopener">Julia Programming Language</a>.
+
+      <span class="float-right" aria-hidden="true">
+        <a href="#" class="back-to-top">
+          <span class="button_icon">
+            <i class="fas fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+    </p>
+  </footer>
+</div>
+</div>
+  </div> <!--article container -->
+</article>
+
+
+<!-- CONTENT ENDS HERE -->
+    
+     <script src="/libs/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();hljs.configure({tabReplace: '    '});</script>
+ 
+
+  <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script>
+
+  <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin=anonymous></script>
+
+  <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin=anonymous></script>
+
+  <script src=https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin=anonymous></script>
+
+  <script src="/libs/academic/academic.min.js"></script>
+
+  </body>
+</html>
