@@ -81,16 +81,16 @@
 
 @@
 
-\sectionheading{"Current Projects", class="col-md-12"}
+\sectionheading{"Current Research Interests", class="col-md-12"}
 
 @@col-12
 
 @@
 
-\interests{"Convection and Climate", colwidth=3, img="", blurb="test"}
-\interests{"Dynamics of the<p>Maritime Continent", colwidth=3, img=""}
-\interests{"Idealised Climate Modelling", colwidth=3, img=""}
-\interests{"JuliaClimate", colwidth=3, img=""}
+\interests{"Convection and Climate", colwidth=3, img="", blurb="Understanding how convection couples with large-scale vertical motion in the tropics"}
+\interests{"Maritime Continent", colwidth=3, img="", blurb="How do the islands of the Maritime Continent drive climate from local-global scales?"}
+\interests{"Idealized Island Modelling", colwidth=3, img="", blurb="How do we represent tropical islands in climate models in an idealised framework?"}
+\interests{"JuliaClimate", colwidth=3, img="", blurb="Using and improving the Julia Programming Language for day-to-day Climate research"}
 
 \end{section}
 
