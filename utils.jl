@@ -95,7 +95,7 @@ end
 end
 
 # skill featurette
-@lx function skill(name, sub=""; img="", fa="",
+@lx function skill(name; colwidth, img="", fa="", link="",
                    imgstyle="display:inline-block; width:56px;",
                    fastyle="")
     illustration = ""
@@ -106,12 +106,35 @@ end
     end
 
     return """
-        <div class="col-12 col-sm-4">
+        <div class="col-12 col-sm-$colwidth">
           <div class=featurette-icon style="text-align:center;">
           """ * illustration * """
           </div>
-          <h3>$name</h3>
-          $(ifelse(isempty(sub), "", "<p>$sub</p>"))
+          <p>
+          <h3><a href="$link">$name</a></h3>
+        </div>""" |> html
+end
+
+# interests featurette
+@lx function interests(name; colwidth, img="", fa="",
+                   imgstyle="display:inline-block; width:100px;",
+                   fastyle="",
+                   link="", blurb = "")
+    illustration = ""
+    if !isempty(img)
+        illustration = """<img style="$imgstyle" src="$img">"""
+    elseif !isempty(fa)
+        illustration = """<i class="fas fa-$fa" style="$fastyle"></i>"""
+    end
+
+    return """
+        <div class="col-12 col-sm-$colwidth">
+          <div class=featurette-icon style="text-align:center;">
+          """ * illustration * """
+          </div>
+          <p>
+          <h3><a href="$link">$name</a></h3>
+          <p>$blurb</p>
         </div>""" |> html
 end
 

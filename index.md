@@ -72,17 +72,60 @@
 <!-- end of Recent News Section -->
 
 <!-- --------------
+     INTERSTS SECTION
+     -------------- -->
+
+\begin{section}{name="skills", class="wg-featurette", rowclass="featurette"}
+
+@@col-12
+
+@@
+
+\sectionheading{"Current Projects", class="col-md-12"}
+
+@@col-12
+
+@@
+
+\interests{"Convection and Climate", colwidth=3, img="", blurb="test"}
+\interests{"Dynamics of the<p>Maritime Continent", colwidth=3, img=""}
+\interests{"Idealised Climate Modelling", colwidth=3, img=""}
+\interests{"JuliaClimate", colwidth=3, img=""}
+
+\end{section}
+
+<!-- --------------
      SKILLS SECTION
      -------------- -->
 
 \begin{section}{name="skills", class="wg-featurette", rowclass="featurette"}
 
-\sectionheading{"Favorite tools", class="col-md-12"}
+@@col-12
 
-\skill{"Julia", "90%", img="/assets/img/julia-dots-colors.svg"}
-\skill{"Fortran", "50%", img="/assets/img/fortran.png"}
-\skill{"System for Atmospheric Modelling", "75%", img="/assets/img/climatemodel.jpg"}
+@@
+
+\sectionheading{"Favorite Tools", class="col-md-12"}
+
+@@col-12
+
+@@
+
+\skill{"", colwidth=2, img=""}
+\skill{"Julia", colwidth=2, img="/assets/img/julia-dots-colors.svg"}
+\skill{"Fortran", colwidth=2, img="/assets/img/fortran.png"}
+\skill{"System for Atmospheric Modelling", colwidth=2, img="/assets/img/climatemodel.jpg"}
+\skill{"Isca", colwidth=2, img="/assets/img/iscalogo.png"}
 
 \end{section}
 
+<!-- --------------
+\begin{section}{name="about"}
 
+@@col-12,col-md-8,profile
+
+Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+
+@@
+
+\end{section}
+     -------------- -->
