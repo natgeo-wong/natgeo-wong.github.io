@@ -463,7 +463,7 @@ function hfun_pubrecent()
         <table style="font-size:1.0rem" class="table table-borderless">
         """)
     if length(bib) > 3
-        for bibitem in bib[(end-2):end]
+        for bibitem in bib[1:3]
             title = replace(bibitem.title,"{"=>"")
             title = replace(title,"}"=>"")        
             authors = bibitem.names
