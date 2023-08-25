@@ -14,7 +14,7 @@
     job="PhD Candidate",
     link="https://eps.harvard.edu/people/nathanael-wong",
     linkname="Harvard University",
-    resume="/assets/resume.pdf",
+    resume="/assets/cv.pdf",
     email="nathanaelwong@fas.harvard.edu",
     twitter="https://twitter.com/natgeo_wong",
     gscholar="https://scholar.google.com/citations?user=-hpOpqIAAAAJ&hl=en",
