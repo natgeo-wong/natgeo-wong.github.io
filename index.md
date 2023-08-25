@@ -13,7 +13,7 @@
 \portrait{
     name="Nathanael Wong Zhixin",
     job="PhD Candidate",
-    link="https://www.harvard.edu/",
+    link="https://eps.harvard.edu/people/nathanael-wong",
     linkname="Harvard University",
     resume="/assets/resume.pdf",
     email="nathanaelwong@fas.harvard.edu",
@@ -28,7 +28,7 @@
 @@col-12,col-lg-8
 
 \begin{biography}{}
-    Hello! I am a PhD Candidtate in the Department of Earth and Planetary Sciences at Harvard University, currently working under Professor Kuang Zhiming fields of tropical dynamics, observational meteorology and climate modelling. My research interests currently include investigating and understanding large scale climate dynamical systems in the Maritime Continent. For example, I am interested in how the unique archipelago features of the Maritime Continent drive dynamics at various spatial scales and how they respond to global warming. I am also interested in the operational side of meteorology such as weather radar, and using the data from these instruments to investigate precipitation and cloud dynamics in the tropics.
+    Hello! I am a PhD Candidate in the Department of Earth and Planetary Sciences at Harvard University, currently working under Professor Kuang Zhiming on a variety of different projects related to tropical convection and climate, especially as relates to the Maritime Continent.
  
 \end{biography}
 
