@@ -6,7 +6,6 @@
 
 \begin{section}{name="about"}
 
-<!-- RIGHT COLUMN -->
 @@col-12,col-lg-4,profile
 
 \img{"/assets/img/tmp.jpg", class="avatar avatar-square", alt="Nathanael Wong"}
@@ -21,14 +20,14 @@
     gscholar="https://scholar.google.com/citations?user=-hpOpqIAAAAJ&hl=en",
     github="https://github.com/natgeo-wong"
 }
-@@ <!-- end of column -->
+@@
 
-
-<!-- LEFT COLUMN -->
 @@col-12,col-lg-8
 
 \begin{biography}{}
     Hello! I am a PhD Candidate in the Department of Earth and Planetary Sciences at Harvard University, currently working under Professor Kuang Zhiming on a variety of different projects related to tropical convection and climate, especially as relates to the Maritime Continent.
+
+    Feel free to reach out to me via nathanaelwong [at] harvard.edu if you have any questions.
  
 \end{biography}
 
@@ -39,42 +38,38 @@
         ("BSc in Environmental Earth Systems Science, 2015", "Nanyang Technological University")]
 }
 
-@@ <!-- end of column -->
-
-
+@@
 
 \end{section}
+
+<!-- end of Biography Section -->
+
+<!-- Recent News Section -->
 
 \begin{section}{name="recent news"}
 
 <!-- --------------
-     SHORT PUB LIST SECTION
+     Short Publication List Column
      -------------- -->
-
-
 @@col-12,col-lg-6,pubs
- \
-\sectionheading{"Recent publications", class="col-md-12"}
-{{pub}}
-
+    \
+        \sectionheading{"Recent publications", class="col-md-12"}
+    {{pub 3}}
 @@
 
 
 <!-- --------------
-     NEWS SECTION
+     News/Blog Column
      -------------- -->
-
-
 @@col-12,col-lg-6,news
-
- \
-\sectionheading{"News", class="col-md-12"}
-{{recentnews 3}}
-
+    \
+        \sectionheading{"News", class="col-md-12"}
+    {{recentnews 3}}
 @@
+
 \end{section}
 
-
+<!-- end of Recent News Section -->
 
 <!-- --------------
      SKILLS SECTION
