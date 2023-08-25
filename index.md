@@ -54,7 +54,7 @@
 @@col-12,col-lg-6,pubs
     \
         \sectionheading{"Recent publications", class="col-md-12"}
-    {{pub 3}}
+    {{pub}}
 @@
 
 
