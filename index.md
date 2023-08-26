@@ -75,7 +75,7 @@
      INTERSTS SECTION
      -------------- -->
 
-\begin{section}{name="skills", class="wg-featurette", rowclass="featurette"}
+\begin{section}{name="research", class="wg-featurette", rowclass="featurette"}
 
 @@col-12
 
@@ -87,10 +87,11 @@
 
 @@
 
-\interests{"Convection and Climate", colwidth=3, img="", link="research/convection", blurb="Understanding how convection couples with large-scale vertical motion in the tropics"}
-\interests{"Maritime Continent", colwidth=3, img="", link="research/maritimecontinent", blurb="How do the islands of the Maritime Continent drive climate from local-global scales?"}
-\interests{"Idealized Island Modelling", colwidth=3, img="", link="research/islands", blurb="How do we represent tropical islands in climate models in an idealised framework?"}
-\interests{"JuliaClimate", colwidth=3, img="", link="research/juliaclimate", blurb="Using and improving the Julia Programming Language for day-to-day Climate research"}
+\interests{"", colwidth=2, img=""}
+\interests{"Convection and Climate", colwidth=2, img="", link="research/convection", blurb="How does convection couple with large-scale vertical motion in the tropics"}
+\interests{"Maritime Continent Dynamics", colwidth=2, img="", link="research/maritimecontinent", blurb="How do the islands of the Maritime Continent drive climate at different scales?"}
+\interests{"Idealized Island Modelling", colwidth=2, img="", link="research/islands", blurb="How do we represent tropical islands in climate models in an idealised framework?"}
+\interests{"GNSS in Meteorology", colwidth=2, img="", link="research/gnssmeteorology", blurb="Using GNSS to study precipitable water vapour in the atmosphere"}
 
 \end{section}
 
@@ -110,11 +111,14 @@
 
 @@
 
-\skill{"", colwidth=2, img=""}
-\skill{"Julia", colwidth=2, img="/assets/img/julia-dots-colors.svg"}
-\skill{"Fortran", colwidth=2, img="/assets/img/fortran.png"}
-\skill{"System for Atmospheric Modelling", colwidth=2, img="/assets/img/climatemodel.jpg"}
-\skill{"Isca", colwidth=2, img="/assets/img/iscalogo.png"}
+\skill{"", colwidth=1, img=""}
+\skill{"", colwidth=1, img=""}
+\skill{"", colwidth=1, img=""}
+\skill{"", colwidth=1, img=""}
+\skill{"Julia", colwidth=1, img="/assets/img/julia-dots-colors.svg", link="https://julialang.org/"}
+\skill{"F90", colwidth=1, img="/assets/img/fortran.png", link="https://fortran-lang.org/"}
+\skill{"SAM", colwidth=1, img="/assets/img/climatemodel.jpg", link="http://rossby.msrc.sunysb.edu/~marat/SAM.html"}
+\skill{"Isca", colwidth=1, img="/assets/img/iscalogo.png", link="https://execlim.github.io/IscaWebsite/"}
 
 \end{section}
 

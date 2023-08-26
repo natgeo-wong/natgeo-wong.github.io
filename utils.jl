@@ -107,11 +107,11 @@ end
 
     return """
         <div class="col-12 col-sm-$colwidth">
-          <div class=featurette-icon style="text-align:center;">
-          """ * illustration * """
-          </div>
-          <p>
-          <h3><a href="$link">$name</a></h3>
+            <a href="$link"><div class=featurette-icon style="text-align:center;">
+            """ * illustration * """
+            </div>
+            <p>
+            <h3>$name</h3></a>
         </div>""" |> html
 end
 
@@ -127,13 +127,41 @@ end
         illustration = """<i class="fas fa-$fa" style="$fastyle"></i>"""
     end
 
+    if isempty(name) || isempty(link)
+        moreinfo = ""
+    else
+        moreinfo = """<a href="$link"><p>(more info)</p></a>"""
+    end
+
     return """
         <div class="col-12 col-sm-$colwidth">
-          <div class=featurette-icon style="text-align:center;">
+        <a href="$link"><div class=featurette-icon style="text-align:center;">
           """ * illustration * """
           </div>
-          <p>
-          <h3><a href="$link">$name</a></h3>
+          <h4>$name</h4></a>
+          <p>$blurb</p>
+          $moreinfo
+        </div>""" |> html
+end
+
+# packages featurette
+@lx function packages(name; colwidth, img="", fa="",
+                   imgstyle="display:inline-block; width:100px;",
+                   fastyle="",
+                   link="", blurb = "")
+    illustration = ""
+    if !isempty(img)
+        illustration = """<img style="$imgstyle" src="$img">"""
+    elseif !isempty(fa)
+        illustration = """<i class="fas fa-$fa" style="$fastyle"></i>"""
+    end
+
+    return """
+        <div class="col-12 col-sm-$colwidth">
+        <a href="$link"><div class=featurette-icon style="text-align:center;">
+          """ * illustration * """
+          </div>
+          <h3>$name</h3></a>
           <p>$blurb</p>
         </div>""" |> html
 end

@@ -6,8 +6,8 @@ title = ""
 
 \sectionheading{"Modified Climate Models", class="col-md-12"}
 
-\interests{"System for Atmospheric Modelling", colwidth=6, img="/assets/img/fortran.png", link="https://github.com/natgeo-wong/SAM_v6.11"}
-\interests{"Isca", colwidth=6, img="/assets/img/fortran.png", link="https://github.com/natgeo-wong/Isca"}
+\packages{"System for Atmospheric Modelling", colwidth=6, img="/assets/img/climatemodel.jpg", link="https://github.com/natgeo-wong/SAM_v6.11"}
+\packages{"Isca", colwidth=6, img="/assets/img/Iscalogo.png", link="https://github.com/natgeo-wong/Isca"}
 
 \end{section}
 
@@ -19,10 +19,10 @@ title = ""
 
 \sectionheading{"Julia", class="col-md-12"}
 
-\interests{"GeoRegions.jl", colwidth=6, img="/assets/img/fortran.png", link="https://github.com/natgeo-wong/GeoRegions.jl"}
-\interests{"NASAPrecipitation.jl", colwidth=6, img="/assets/img/fortran.png", link="https://github.com/natgeo-wong/NASAPrecipitation.jl"}
-\interests{"ERA5Reanalysis.jl", colwidth=6, img="/assets/img/fortran.png", link="https://github.com/natgeo-wong/ERA5Reanalysis.jl"}
-\interests{"TmPi.jl", colwidth=6, img="/assets/img/fortran.png", link="https://github.com/natgeo-wong/TmPi.jl"}
+\packages{"GeoRegions.jl", colwidth=6, img="/assets/img/georegions.png", link="https://github.com/natgeo-wong/GeoRegions.jl"}
+\packages{"NASAPrecipitation.jl", colwidth=6, img="/assets/img/nasaprecipitation.png", link="https://github.com/natgeo-wong/NASAPrecipitation.jl"}
+\packages{"ERA5Reanalysis.jl", colwidth=6, img="/assets/img/julia-dots-colors.svg", link="https://github.com/natgeo-wong/ERA5Reanalysis.jl"}
+\packages{"TmPi.jl", colwidth=6, img="/assets/img/julia-dots-colors.svg", link="https://github.com/natgeo-wong/TmPi.jl"}
 
 \end{section}
 
@@ -34,7 +34,7 @@ title = ""
 
 \sectionheading{"MATLAB", class="col-md-12"}
 
-\interests{"Sumatra-ModEQ", colwidth=12, img="/assets/img/fortran.png", link="https://github.com/natgeo-wong/Sumatra-ModEQ"}
+\packages{"Sumatra-ModEQ", colwidth=12, img="/assets/img/sumatraeq.png", link="https://github.com/natgeo-wong/Sumatra-ModEQ"}
 
 \end{section}
 

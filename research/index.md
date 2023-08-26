@@ -36,7 +36,7 @@ Feel free to reach out to me via email if you have any questions.Q
 
 @@col-12,col-lg-6
 
-## [JuliaClimate](juliaclimate)
+## [GNSS Meteorology](gnssmeteorology)
 
 Hello! I am a PhD Candidate in the Department of Earth and Planetary Sciences at Harvard University, currently working under Professor Kuang Zhiming on a variety of different projects related to tropical convection and climate, especially as relates to the Maritime Continent.  See the links above for a more detailed breakdown, along with the relevant publications.
 
