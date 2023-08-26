@@ -2,50 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-    <loc>https://natgeo-wong.github.io/news/index.html</loc>
-    <lastmod>2023-08-25</lastmod>
+    <loc>https://natgeo-wong.github.io/research/maritimecontinent/index.html</loc>
+    <lastmod>2023-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://natgeo-wong.github.io/index.html</loc>
-    <lastmod>2023-08-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://natgeo-wong.github.io/code/index.html</loc>
-    <lastmod>2023-08-25</lastmod>
+    <loc>https://natgeo-wong.github.io/research/juliaclimate/index.html</loc>
+    <lastmod>2023-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://natgeo-wong.github.io/news/2023/08-2023-AOGS/index.html</loc>
-    <lastmod>2023-08-25</lastmod>
+    <lastmod>2023-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://natgeo-wong.github.io/news/2023/08-2023-CCRS/index.html</loc>
-    <lastmod>2023-08-25</lastmod>
+    <lastmod>2023-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://natgeo-wong.github.io/research/convection/index.html</loc>
+    <lastmod>2023-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://natgeo-wong.github.io/news/index.html</loc>
+    <lastmod>2023-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://natgeo-wong.github.io/code/index.html</loc>
+    <lastmod>2023-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://natgeo-wong.github.io/posts/index.html</loc>
-    <lastmod>2023-08-25</lastmod>
+    <lastmod>2023-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://natgeo-wong.github.io/publications/index.html</loc>
-    <lastmod>2023-08-25</lastmod>
+    <loc>https://natgeo-wong.github.io/research/islands/index.html</loc>
+    <lastmod>2023-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://natgeo-wong.github.io/index.html</loc>
+    <lastmod>2023-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://natgeo-wong.github.io/research/index.html</loc>
-    <lastmod>2023-08-25</lastmod>
+    <lastmod>2023-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://natgeo-wong.github.io/publications/index.html</loc>
+    <lastmod>2023-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
