@@ -87,10 +87,10 @@
 
 @@
 
-\interests{"Convection and Climate", colwidth=3, img="", blurb="Understanding how convection couples with large-scale vertical motion in the tropics"}
-\interests{"Maritime Continent", colwidth=3, img="", blurb="How do the islands of the Maritime Continent drive climate from local-global scales?"}
-\interests{"Idealized Island Modelling", colwidth=3, img="", blurb="How do we represent tropical islands in climate models in an idealised framework?"}
-\interests{"JuliaClimate", colwidth=3, img="", blurb="Using and improving the Julia Programming Language for day-to-day Climate research"}
+\interests{"Convection and Climate", colwidth=3, img="", link="research/convection", blurb="Understanding how convection couples with large-scale vertical motion in the tropics"}
+\interests{"Maritime Continent", colwidth=3, img="", link="research/maritimecontinent", blurb="How do the islands of the Maritime Continent drive climate from local-global scales?"}
+\interests{"Idealized Island Modelling", colwidth=3, img="", link="research/islands", blurb="How do we represent tropical islands in climate models in an idealised framework?"}
+\interests{"JuliaClimate", colwidth=3, img="", link="research/juliaclimate", blurb="Using and improving the Julia Programming Language for day-to-day Climate research"}
 
 \end{section}
 

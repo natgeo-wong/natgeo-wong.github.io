@@ -1,2 +1,6 @@
-## Peer-reviewed papers
++++
+title = "Publications and Talks"
++++
+
+## Peer-Reviewed Publications
 {{pub}}
