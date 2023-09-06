@@ -1,5 +1,5 @@
 +++
-author = "Nathanael Wong Zhixin"
+author = "Nat's Website"
 shortauthor = "Nat's Website"
 jobtitle = "PhD Candidate"
 

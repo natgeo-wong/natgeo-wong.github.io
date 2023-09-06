@@ -15,7 +15,7 @@
     link="https://eps.harvard.edu/people/nathanael-wong",
     linkname="Harvard University",
     resume="/assets/cv.pdf",
-    email="nathanaelwong@fas.harvard.edu",
+    email="nathanaelwong[at]fas.harvard.edu",
     twitter="https://twitter.com/natgeo_wong",
     gscholar="https://scholar.google.com/citations?user=-hpOpqIAAAAJ&hl=en",
     github="https://github.com/natgeo-wong"
@@ -105,7 +105,7 @@
 
 @@
 
-\sectionheading{"Favorite Tools", class="col-md-12"}
+\sectionheading{"Expertise", class="col-md-12"}
 
 @@col-12
 

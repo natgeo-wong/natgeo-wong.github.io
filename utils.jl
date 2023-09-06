@@ -166,6 +166,28 @@ end
         </div>""" |> html
 end
 
+# projects featurette
+@lx function projects(name; colwidth, img="", fa="",
+                    imgstyle="display:inline-block; width:200px;",
+                    fastyle="",
+                    link="", blurb = "")
+    illustration = ""
+    if !isempty(img)
+        illustration = """<img style="$imgstyle" src="$img">"""
+    elseif !isempty(fa)
+        illustration = """<i class="fas fa-$fa" style="$fastyle"></i>"""
+    end
+
+    return """
+        <div class="col-12 col-sm-$colwidth">
+        <a href="$link"><div class=featurette-icon style="text-align:center;">
+        """ * illustration * """
+        </div>
+        <h3>$name</h3></a>
+        <p>$blurb</p>
+        </div>""" |> html
+end
+
 # experience cards
 @lx function experience(; title="", company="", descr="",
                           from="", to="", location="", active=false,
