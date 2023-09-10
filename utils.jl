@@ -117,7 +117,7 @@ end
 
 # interests featurette
 @lx function interests(name; colwidth, img="", fa="",
-                   imgstyle="display:inline-block; width:100px;",
+                   imgstyle="display:inline-block; width:150px;",
                    fastyle="",
                    link="", blurb = "")
     illustration = ""

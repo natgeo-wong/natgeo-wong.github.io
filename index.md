@@ -72,30 +72,6 @@
 <!-- end of Recent News Section -->
 
 <!-- --------------
-     INTERSTS SECTION
-     -------------- -->
-
-\begin{section}{name="research", class="wg-featurette", rowclass="featurette"}
-
-@@col-12
-
-@@
-
-\sectionheading{"Current Research Interests", class="col-md-12"}
-
-@@col-12
-
-@@
-
-\interests{"", colwidth=2, img=""}
-\interests{"Convection and Climate", colwidth=2, img="", link="research/convection", blurb="How does convection couple with large-scale vertical motion in the tropics"}
-\interests{"Maritime Continent Dynamics", colwidth=2, img="", link="research/maritimecontinent", blurb="How do the islands of the Maritime Continent drive climate at different scales?"}
-\interests{"Idealized Island Modelling", colwidth=2, img="", link="research/islands", blurb="How do we represent tropical islands in climate models in an idealised framework?"}
-\interests{"GNSS in Meteorology", colwidth=2, img="", link="research/gnssmeteorology", blurb="Using GNSS to study precipitable water vapour in the atmosphere"}
-
-\end{section}
-
-<!-- --------------
      SKILLS SECTION
      -------------- -->
 
@@ -119,6 +95,49 @@
 \skill{"F90", colwidth=1, img="/assets/img/fortran.png", link="https://fortran-lang.org/"}
 \skill{"SAM", colwidth=1, img="/assets/img/climatemodel.jpg", link="http://rossby.msrc.sunysb.edu/~marat/SAM.html"}
 \skill{"Isca", colwidth=1, img="/assets/img/iscalogo.png", link="https://execlim.github.io/IscaWebsite/"}
+
+\end{section}
+
+<!-- --------------
+     INTERSTS SECTION
+     -------------- -->
+
+\begin{section}{name="research", class="wg-featurette", rowclass="featurette"}
+
+@@col-12
+
+@@
+
+\sectionheading{"Current Research Interests", class="col-md-12"}
+
+@@col-12
+
+@@
+
+\interests{"", colwidth=2, img=""}
+\interests{"Convection and Climate", colwidth=2, img="/assets/img/convection.png", link="research/convection", blurb="How does convection couple with large-scale vertical motion in the tropics"}
+\interests{"Maritime Continent Dynamics", colwidth=2, img="/assets/img/mcdynamics.png", link="research/maritimecontinent", blurb="How do the islands of the Maritime Continent drive climate at different scales?"}
+\interests{"Idealized Island Modelling", colwidth=2, img="/assets/img/idealisland.png", link="research/islands", blurb="How do we represent tropical islands in climate models in an idealised framework?"}
+\interests{"GNSS in Meteorology", colwidth=2, img="/assets/img/gnssmeteorology.png", link="research/gnssmeteorology", blurb="Using GNSS to study precipitable water vapour in the atmosphere"}
+
+\end{section}
+
+\begin{section}{name="experience", class="wg-featurette", rowclass="featurette"}
+
+@@col-12
+
+@@
+
+\sectionheading{"Previous Research", class="col-md-12"}
+
+@@col-12
+
+@@
+
+\interests{"", colwidth=2, img=""}
+\interests{"", colwidth=2, img=""}
+\interests{"Moderate Sumatran Earthquakes", colwidth=2, img="/assets/img/modsumatraeq.png", link="", blurb="Modelling and cataloguing moderate earthquakes in Sumatra using SuGAr"}
+\interests{"Bolaven Plateau Catastraloess", colwidth=2, img="/assets/img/bolaven.png", link="", blurb="Investigating the sedimentology of the Bolaven Plateau Catastraloess"}
 
 \end{section}
 
