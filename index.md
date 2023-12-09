@@ -18,7 +18,8 @@
     email="nathanaelwong[at]fas.harvard.edu",
     twitter="https://twitter.com/natgeo_wong",
     gscholar="https://scholar.google.com/citations?user=-hpOpqIAAAAJ&hl=en",
-    github="https://github.com/natgeo-wong"
+    github="https://github.com/natgeo-wong",
+    linkedin="https://www.linkedin.com/in/nathanaelwongzhixin"
 }
 @@
 
