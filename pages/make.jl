@@ -4,10 +4,10 @@ using DocumenterVitepress
 makedocs(;
     warnonly = true,
     authors  = "Nathanael Wong",
-    repo     = "https://github.com/natgeo-wong",
+    repo     = "https://github.com/natgeo-wong/natgeo-wong.github.io",
     sitename = "The CliNat Blog",
     format   = DocumenterVitepress.MarkdownVitepress(
-        repo       = "https://github.com/natgeo-wong",
+        repo       = "https://github.com/natgeo-wong/natgeo-wong.github.io",
         devurl     = ".",
         deploy_url = "natgeo-wong.github.io",
     ),
@@ -18,7 +18,7 @@ makedocs(;
 )
 
 deploydocs(;
-    repo         = "github.com/natgeo-wong",
+    repo         = "github.com/natgeo-wong/natgeo-wong.github.io",
     versions     = nothing,
     push_preview = true,
 )
