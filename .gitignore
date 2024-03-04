@@ -3,3 +3,5 @@ __site/
 node_modules/
 package-lock.json
 Manifest.toml
+pages/Manifest.toml
+pages/.DS_Store
