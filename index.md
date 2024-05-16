@@ -109,7 +109,7 @@
 
 @@
 
-\sectionheading{"Current Research Interests", class="col-md-12"}
+\sectionheading{"Research Interests", class="col-md-12"}
 
 @@col-12
 
