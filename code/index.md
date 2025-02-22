@@ -11,18 +11,31 @@ title = ""
 
 \end{section}
 
+\begin{section}{name="georegions", class="wg-featurette", rowclass="featurette"}
+
+@@col-12
+
+@@
+
+\sectionheading{"GeoRegions Ecosystem", class="col-md-12"}
+
+\packages{"GeoRegions.jl", colwidth=12, img="/assets/img/georegions.png", link="https://github.com/georegionsecosystem/GeoRegions.jl"}
+\packages{"GeoRegions.jl", colwidth=6, img="/assets/img/regiongrids.png", link="https://github.com/georegionsecosystem/RegionGrids.jl"}
+\packages{"GeoRegions.jl", colwidth=6, img="/assets/img/landsea.png", link="https://github.com/georegionsecosystem/LandSea.jl"}
+\packages{"NASAPrecipitation.jl", colwidth=6, img="/assets/img/nasaprecipitation.png", link="https://github.com/georegionsecosystem/NASAPrecipitation.jl"}
+\packages{"ERA5Reanalysis.jl", colwidth=6, img="/assets/img/julia-dots-colors.svg", link="https://github.com/georegionsecosystem/ERA5Reanalysis.jl"}
+
+\end{section}
+
 \begin{section}{name="julia", class="wg-featurette", rowclass="featurette"}
 
 @@col-12
 
 @@
 
-\sectionheading{"Julia", class="col-md-12"}
+\sectionheading{"Other Julia Codes/Packages", class="col-md-12"}
 
-\packages{"GeoRegions.jl", colwidth=6, img="/assets/img/georegions.png", link="https://github.com/natgeo-wong/GeoRegions.jl"}
-\packages{"NASAPrecipitation.jl", colwidth=6, img="/assets/img/nasaprecipitation.png", link="https://github.com/natgeo-wong/NASAPrecipitation.jl"}
-\packages{"ERA5Reanalysis.jl", colwidth=6, img="/assets/img/julia-dots-colors.svg", link="https://github.com/natgeo-wong/ERA5Reanalysis.jl"}
-\packages{"TmPi.jl", colwidth=6, img="/assets/img/julia-dots-colors.svg", link="https://github.com/natgeo-wong/TmPi.jl"}
+\packages{"TmPi.jl", colwidth=12, img="/assets/img/julia-dots-colors.svg", link="https://github.com/georegionsecosystem/TmPi.jl"}
 
 \end{section}
 
