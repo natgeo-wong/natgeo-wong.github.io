@@ -13,7 +13,7 @@
     name="Nathanael Wong Zhixin",
     job="Postdoct @ NYU",
     resume="/assets/cv.pdf",
-    email="nathanaelwong[at]fas.harvard.edu",,
+    email="nathanaelwong[at]fas.harvard.edu",
     gscholar="https://scholar.google.com/citations?user=-hpOpqIAAAAJ&hl=en",
     github="https://github.com/natgeo-wong",
     linkedin="https://www.linkedin.com/in/nathanaelwongzhixin"
