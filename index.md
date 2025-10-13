@@ -11,9 +11,9 @@
 \img{"/assets/img/avatar.jpg", class="avatar avatar-square", alt="Nathanael Wong"}
 \portrait{
     name="Nathanael Wong Zhixin",
-    job="Postdoct @ NYU",
+    job="Postdoc @ NYU",
     resume="/assets/cv.pdf",
-    email="nathanaelwong[at]fas.harvard.edu",
+    email="n.wong[at]nyu.edu",
     gscholar="https://scholar.google.com/citations?user=-hpOpqIAAAAJ&hl=en",
     github="https://github.com/natgeo-wong",
     linkedin="https://www.linkedin.com/in/nathanaelwongzhixin"
