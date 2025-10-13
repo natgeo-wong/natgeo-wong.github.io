@@ -11,10 +11,10 @@
 \img{"/assets/img/avatar.jpg", class="avatar avatar-square", alt="Nathanael Wong"}
 \portrait{
     name="Nathanael Wong Zhixin",
-    job="Postdoc @ NYU",
+    job="Postdoctoral Researcher @ NYU",
     resume="/assets/cv.pdf",
     email="n.wong[at]nyu.edu",
-    gscholar="https://scholar.google.com/citations?user=-hpOpqIAAAAJ&hl=en",
+    gscholar="https://scholar.google.com/citations?user=-7GOSm4AAAAJ&hl=en",
     github="https://github.com/natgeo-wong",
     linkedin="https://www.linkedin.com/in/nathanaelwongzhixin"
 }
@@ -23,7 +23,7 @@
 @@col-12,col-lg-8
 
 \begin{biography}{}
-    Hello! I am a Postdoctoral Research Associate at the Courant Institute of Mathematical Sciences in New York University, currently working for Professor Sara Shamekh on investigating the shallow-to-deep transition of Convection.  See the links above for a more detailed breakdown, along with the relevant publications.
+    Hello! I am a Postdoctoral Research Associate at the Courant Institute of Mathematical Sciences in New York University, currently working for Professor Sara Shamekh on investigating the shallow-to-deep transition (STDT) of convection using ARM observations, reanalysis datasets and deep learning techniques. I am also particularly interested in understanding the climatology of tropical islands using hierarchies of model complexity.
 
     Feel free to reach out to me via email if you have any questions.
  
@@ -92,7 +92,7 @@
 \skill{"Julia", colwidth=1, img="/assets/img/julia-dots-colors.svg", link="https://julialang.org/"}
 \skill{"F90", colwidth=1, img="/assets/img/fortran.png", link="https://fortran-lang.org/"}
 \skill{"SAM", colwidth=1, img="/assets/img/climatemodel.jpg", link="http://rossby.msrc.sunysb.edu/~marat/SAM.html"}
-\skill{"Isca", colwidth=1, img="/assets/img/iscalogo.png", link="https://execlim.github.io/IscaWebsite/"}
+\skill{"Isca", colwidth=1, img="/assets/img/Iscalogo.png", link="https://execlim.github.io/IscaWebsite/"}
 
 \end{section}
 
