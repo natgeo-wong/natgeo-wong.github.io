@@ -112,11 +112,10 @@
 
 @@
 
-\interests{"", colwidth=2, img=""}
-\interests{"Convection and Climate", colwidth=2, img="/assets/img/convection.png", link="research/convection", blurb="How does convection couple with large-scale vertical motion in the tropics"}
-\interests{"Maritime Continent Dynamics", colwidth=2, img="/assets/img/mcdynamics.png", link="research/maritimecontinent", blurb="How do the islands of the Maritime Continent drive climate at different scales?"}
-\interests{"Idealized Island Modelling", colwidth=2, img="/assets/img/idealisland.png", link="research/islands", blurb="How do we represent tropical islands in climate models in an idealised framework?"}
-\interests{"GNSS in Meteorology", colwidth=2, img="/assets/img/gnssmeteorology.png", link="research/gnssmeteorology", blurb="Using GNSS to study precipitable water vapour in the atmosphere"}
+\interests{"", colwidth=3, img=""}
+\interests{"Convection and Climate", colwidth=2, img="/assets/img/convection.png", link="research/convection", blurb="How does Local Convection couple to the Large-Scale Tropical Dynamics?"}
+\interests{"Island Dynamics Modelling", colwidth=2, img="/assets/img/idealisland.png", link="research/islands", blurb="How do Tropical Islands drive Climate and Convection at different scales?"}
+\interests{"GNSS in Meteorology", colwidth=2, img="/assets/img/gnssmeteorology.png", link="research/gnssmeteorology", blurb="Can GNSS be used to study the Vertical Structure of the Tropics?"}
 
 \end{section}
 
@@ -132,10 +131,10 @@
 
 @@
 
-\interests{"", colwidth=2, img=""}
-\interests{"", colwidth=2, img=""}
+\interests{"", colwidth=3, img=""}
 \interests{"Moderate Sumatran Earthquakes", colwidth=2, img="/assets/img/modsumatraeq.png", link="", blurb="Modelling and cataloguing moderate earthquakes in Sumatra using SuGAr"}
-\interests{"Bolaven Plateau Catastraloess", colwidth=2, img="/assets/img/bolaven.png", link="", blurb="Investigating the sedimentology of the Bolaven Plateau Catastraloess"}
+\interests{"Bolaven Plateau Catastraloess", colwidth=2, img="/assets/img/bolaven.png", link="", blurb="Investigating the sedimentology of the Bolaven Plateau"}
+\interests{"Isotopes in Convection", colwidth=2, img="/assets/img/bolaven.png", link="", blurb="Understanding the Vertical Structure of Convection using Heavy-Water Isotopes"}
 
 \end{section}
 
