@@ -8,7 +8,7 @@
 
 @@col-12,col-lg-4,profile
 
-\img{"/assets/img/avatar.jpg", class="avatar avatar-square", alt="Nathanael Wong"}
+\img{"/assets/img/avatar.png", class="avatar avatar-square", alt="Nathanael Wong"}
 \portrait{
     name="Nathanael Wong Zhixin",
     job="Postdoctoral Researcher @ NYU",
@@ -23,7 +23,7 @@
 @@col-12,col-lg-8
 
 \begin{biography}{}
-    Hello! I am a Postdoctoral Research Associate at the Courant Institute of Mathematical Sciences in New York University, currently working for Professor Sara Shamekh on investigating the shallow-to-deep transition (STDT) of convection using ARM observations, reanalysis datasets and deep learning techniques. I am also particularly interested in understanding the climatology of tropical islands using hierarchies of model complexity.
+    Hello! I am a Postdoctoral Research Associate at the Courant Institute of Mathematical Sciences in New York University, currently working for Professor Sara Shamekh on investigating the shallow-to-deep transition (STDT) of convection using ARM observations, reanalysis datasets and deep learning techniques. I am also particularly interested in understanding the climatology of tropical islands and how they influence the large-scale tropical circulation using hierarchies of model complexity. On the side, I am also involved in developing packages in the Julia Programming Language to streamline my analysis of climate observational datasets and modelling output.
 
     Feel free to reach out to me via email if you have any questions.
  
@@ -134,7 +134,7 @@
 \interests{"", colwidth=3, img=""}
 \interests{"Moderate Sumatran Earthquakes", colwidth=2, img="/assets/img/modsumatraeq.png", link="", blurb="Modelling and cataloguing moderate earthquakes in Sumatra using SuGAr"}
 \interests{"Bolaven Plateau Catastraloess", colwidth=2, img="/assets/img/bolaven.png", link="", blurb="Investigating the sedimentology of the Bolaven Plateau"}
-\interests{"Isotopes in Convection", colwidth=2, img="/assets/img/bolaven.png", link="", blurb="Understanding the Vertical Structure of Convection using Heavy-Water Isotopes"}
+\interests{"Isotopes in Convection", colwidth=2, img="/assets/img/isoconvection.png", link="", blurb="Understanding the Vertical Structure of Convection using Heavy-Water Isotopes"}
 
 \end{section}
 
